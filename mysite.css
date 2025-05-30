@@ -1,0 +1,23 @@
+* {
+            box-sizing: border-box;
+        }
+        .grid {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            max-width: 600px;
+            margin: auto;
+            background-color: lightsteelblue;
+            padding: 10px;
+        }
+        .box {
+            font-size: larger;
+            color: #fff;
+            border-radius: 5px;
+            background-color: #2196f3;
+            border: 1px solid black;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
